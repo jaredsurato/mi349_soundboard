@@ -1,0 +1,39 @@
+body {
+    background: #888;
+    margin: 0 auto;
+}
+
+h1, header {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;    
+}
+
+h1 {
+    color: #eee;
+    padding: 10px;
+    text-shadow: 1px 1px 5px #222;
+    border-bottom: 1px solid #222;
+}
+
+section {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    margin: 2%;
+    padding: 2%;
+    transition-duration: 4ms;
+    background-color: #222;
+}
+
+button:hover { 
+    background-color: crimson;
+    box-shadow: 5px 5px 5px #222;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Soundboard</title>
+</head>
+<body>
+    <header>
+        <h1>This is my Soundboard!</h1>
+    </header>
+    <section>
+        <button id="first" onClick="playFirstAudio()">
+            Play Carpentry
+        </button>
+
+        <button id="second" onClick="playSecondAudio()">
+            Play Shotgun
+        </button>
+
+        <button id="third" onClick="playThirdAudio()">
+            Play Ricochet
+        </button>
+    </section>
+
+    <audio src="carpentry.wav" type="audio/wav" id="carpentry"></audio>
+    <audio src="shotgun_x.wav" type="audio/wav" id="shotgun" muted></audio>
+    <audio src="ricochet_x.wav" type="audio/wav" id="ricochet" muted></audio>
+    
+    <script src="soundboard.js"></script>
+
+</body>
+</html>
